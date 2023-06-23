@@ -1,0 +1,86 @@
+body{
+    background-color: #001e4d;
+}
+
+.app{
+    background-color: azure;
+    border-radius: 12px;
+    padding: 25px;
+    margin: 100px auto;
+    width: 85%;
+    max-width: 500px;
+}
+
+.app h1{
+    text-align: center;
+    color: rgb(25, 163, 188);
+    font-weight: 20px;
+    border: 2px solid #3b3b3b;
+    /* border-bottom: 2px solid #3b3b3b; */
+    border-radius: 7px;
+    padding-bottom: 10px;
+
+}
+
+.quiz{
+    padding: 20px 0;
+
+}
+
+.quiz h2{
+    font-size:18px;
+    color: #001e4d;
+    font-weight: 660;
+}
+
+.btn{
+    background-color: #fff;
+    color: #222;
+    font-weight: 530;
+    text-align: left;
+    border-radius: 7px;
+    border: 1px solid #222;
+    width: 100%;
+    padding:10px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 450ms;
+}
+
+.btn:hover:not([disabled]){
+    background-color: #222;
+    color: #fff;
+}
+
+.btn:disabled{
+    cursor: no-drop;
+}
+
+#next-ques{
+    display: block;
+    background-color: #001e4d;
+    color: #fff;
+    font-weight: 530;
+    width: 150px;
+    border: 0;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 20px auto;
+    cursor:pointer;
+    transition: 450ms;
+}
+
+#next-ques:hover{
+    background-color: #83d6da;
+    color: #001e4d;
+}
+
+/* for correct answer */
+.correct{
+    background-color: #79ebaa;
+}
+
+/* for incorrect answer */
+.incorrect{
+    background-color: #f68383;
+}
